@@ -1,14 +1,30 @@
-
 import os,sys,hashlib
-os.system('clear') # if you Use windows put "CLS"
-print '''
+os.system('clear') 
+d = '\033[1;34m'
+C = '\033[1;31m'
+
+print(C)
+
+os.system('figlet -f slant " Ahmed kaissar"')
+
+print(d)
+
+print('& & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & & ')
+
+print ''' \033[33m        welcome Black Hat islamic
+                  Encrypt
+                Ahmed kaissar   
+   '''
+print ''' \033[34m
     +---------------------------------+
     | [+] Black HAT islamic      [+]  |
     | [+]      Ahmed kaissar     [+]  |
     | [+]      Database_HK       [+]  |
     | [+]      LANA X            [+]  |
     +---------------------------------+
-    
+'''
+
+print ''' \033[36m
     1  > > > base64\t\t 
     2  > > > MD5\t\t  
     3  > > > SHA-1\t\t
@@ -95,7 +111,7 @@ elif select == '9' :
         de = base64.b32decode(decrypt)
         print 'Your Decryption : ' + de
 elif select == '99' : 
-    print " [+] ok Exit [+]"
+    print " kaissar close Encrypt   "
     sys.exit()
 else : 
     print "Error In Input !! \n\nPlease Try Again >>> ." 
